@@ -17,10 +17,10 @@ It combines elegant UI, smooth animations, and logical functionality to deliver 
 ## 🧩 Tech Stack
 
 Technology and Purpose
-**HTML5** - Structure and content 
-**CSS3** - Styling and layout 
-**JavaScript (Vanilla JS)** - Logic, interactivity, and state management 
- **LocalStorage** - Save and retrieve user scores |
+- **HTML5** - Structure and content 
+- **CSS3** - Styling and layout 
+- **JavaScript (Vanilla JS)** - Logic, interactivity, and state management 
+-  **LocalStorage** - Save and retrieve user scores |
 
 --------
 ## 📂 Folder Structure
@@ -47,10 +47,10 @@ QuizSpot/
 🔗 **Live Website**: https://kondakakarla.github.io/QuizSpot/
 
 **👩‍💻 Developer**
-Kakarla Lakshmi Venkata Siva Sai Konda(kakarlalvsivasaikonda@gnail.com)
-Parasa Haritha(parasaharitha321@gmail.com)
-Dimmiti Deepthi(deepthidimmiti@gmail.com)
-Dimmiti Divya(divyadimmiti@gmail.com)
+- Kakarla Lakshmi Venkata Siva Sai Konda(kakarlalvsivasaikonda@gnail.com)
+- Parasa Haritha(parasaharitha321@gmail.com)
+- Dimmiti Deepthi(deepthidimmiti@gmail.com)
+- Dimmiti Divya(divyadimmiti@gmail.com)
 📚 Computer Science & Engineering Students (5th Semester)
 🌈 Passionate about building creative, user-friendly web projects.
 
