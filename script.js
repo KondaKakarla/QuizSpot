@@ -173,7 +173,7 @@ const quizzes = {
         { q: "How do you conditionally render an element in JSX?", options: ["If/Else statements", "Ternary operator or logical AND (&&)", "The Switch statement"], answer: 1 },
         { q: "Data passed from a parent component to a child is called:", options: ["State", "Hooks", "Props"], answer: 2 }
     ],
-    'Nodejs': [
+    'Node.js': [
         { q: "Node.js is built on which JavaScript engine?", options: ["SpiderMonkey", "V8", "Chakra"], answer: 1 },
         { q: "Node.js is famous for its _________ architecture.", options: ["Blocking", "Synchronous", "Non-blocking"], answer: 2 },
         { q: "The primary tool for managing Node.js packages is?", options: ["Yarn", "NPM", "Bundler"], answer: 1 },
@@ -221,7 +221,10 @@ function createQuizLogic() {
         return;
     }
 
-    let currentQuiz = quizzes[domain];
+    let currentQuiz = [...quizzes[domain]];
+
+// Randomize Questions
+    currentQuiz.sort(() => Math.random() - 0.5);
     let currentQuestion = 0;
     let score = 0;
     let timeLeft = 60;
@@ -253,6 +256,16 @@ function createQuizLogic() {
         }
 
         const q = currentQuiz[currentQuestion];
+        // Randomize Options
+        let shuffledOptions = q.options.map((option, index) => ({
+            option,
+            correct: index === q.answer
+        }));
+
+        shuffledOptions.sort(() => Math.random() - 0.5);
+
+q.options = shuffledOptions.map(item => item.option);
+q.answer = shuffledOptions.findIndex(item => item.correct);
         container.innerHTML = `
             <div class="quiz-card">
                 <p class="question-text">${currentQuestion + 1}. ${q.q}</p>
