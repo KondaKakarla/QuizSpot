@@ -48,10 +48,7 @@ QuizSpot/
 
 **👩‍💻 Developer**
 - Kakarla Lakshmi Venkata Siva Sai Konda(kakarlalvsivasaikonda@gnail.com)
-- Parasa Haritha(parasaharitha321@gmail.com)
-- Dimmiti Deepthi(deepthidimmiti@gmail.com)
-- Dimmiti Divya(divyadimmiti@gmail.com)
-📚 Computer Science & Engineering Students (5th Semester)
+📚 Computer Science & Engineering Student (5th Semester)
 🌈 Passionate about building creative, user-friendly web projects.
 
 
